@@ -1,0 +1,139 @@
+<footer>   <!-- START footer heading SECTION -->
+    <div id="footer" class="offset">
+      <div class="row padding">
+        <div class="col-12 os-animation" data-animation="fadeInUp">
+          <h3 class="heading mt-5">Contact Us</h3>
+        </div>
+  
+      </div><!-- End Row padding -->
+  
+      <div class="row">
+        <div class="col-md-6">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Rerum aspernatur reprehenderit et fuga cumque vitae velit necessitatibus
+            distinctio autem eius delectus ullam fugit, tenetur officia veniam ab expedita
+            aliquid rem voluptate hic esse quibusdam praesentium. Quia, sapiente suscipit
+            corporis minima aspernatur consequatur excepturi laborum qui? Asperiores vitae
+            facere veniam corporis?</p>
+          <strong>Our Location</strong>
+          <p>100 Street Name<br>
+            Our City, AA 100000</p>
+          <strong>Contact Info</strong>
+          <p>(000) 9123-8888<br>
+            email@icecreamoclock.com</p>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-reddit-square"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div> <!-- end col md 5-->
+  
+        <div class="col-md-6">
+          <form id="contact-form" method="post" action="contact.php">
+  
+            <div class="messages"></div>
+            <div class="controls">
+  
+            <div class="form-group">
+            <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name."
+            required="required">
+            </div>
+  
+            <div class="form-group">
+            <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email."
+            required="required">
+            </div>
+  
+            <div class="form-group">
+            <textarea id="form_message" name="message" class="form-control" placeholder="Add your message." rows="4"
+            required="required"></textarea>
+            </div>
+  
+            <input type="submit" class="btn btn-outline-light btn-sm btn-submit-contacts" value="Send message">
+            </div>
+  
+          </form>
+        </div>
+      </div>  <!--- End of Row -->
+  
+  <div class="row d-flex align-items-center justify-content-center">
+    <p>&copy; Ice Cream O'Clock 2019.</p>
+  </div>
+  </div>  <!--- End Contact/Footer Section -->
+  </footer>  <!--- End of Footer -->
+  
+  <!-- Top Scroll -->
+  <a href="#home" class="top-scroll">
+    <i class="fas fa-angle-up"></i>
+  </a>
+  
+  <!-- cart -->
+  <div class="cart" id="cart">
+      <!-- cart item -->
+      <div class="cart-item d-flex justify-content-between text-capitalize my-3">
+        <img src="/img/BoysenberryPic.png" class="img-fluid rounded-circle cart-img-small" id="item-img" alt="">
+        <div class="item-text">
+          <p id="cart-item-title" class="font-weight-bold mb-0">
+            cart item</p>
+          <span>$</span>
+          <span id="cart-item-price" class="cart-item-price mb-0">10.99</span>
+  
+        </div>
+        <a href="#" id="cart-item-remove" class="cart-item-remove">
+          <i class="fas fa-trash"></i>
+        </a>
+      </div>
+      <!-- end of cart item -->
+      <!-- cart item - 2nd -->
+      <div class="cart-item d-flex justify-content-between text-capitalize my-3">
+        <img src="/img/CookiesCreamPic.png" class="img-fluid rounded-circle cart-img-small" id="item-img" alt="">
+        <div class="item-text">
+          <p id="cart-item-title" class="font-weight-bold mb-0">
+            cart item</p>
+          <span>$</span>
+          <span id="cart-item-price" class="cart-item-price mb-0">10.99</span>
+  
+        </div>
+        <a href="#" id="cart-item-remove" class="cart-item-remove">
+          <i class="fas fa-trash"></i>
+        </a>
+      </div>
+      <!-- end of cart item -->
+      <!-- total -->
+      <div class="cart-total-container d-flex justify-content-around text-capitalize mt-5">
+        <h5>total</h5>
+        <h5>$ <strong id="cart-total" class="font-weight-bold">10.00</strong></h5>
+      </div>
+      <!-- end of total -->
+      <!-- cart buttons -->
+      <div class="cart-buttons-container mt-3 d-flex justify-content-between">
+        <a href="#" id="clear-cart" class="btn btn-clearcart text-uppercase">clear cart</a>
+        <a href="#" id="clear-cart" class="btn btn-checkout text-uppercase">checkout</a>
+      </div>
+    </div>
+  
+    <p><%= rendertime %>
+
+    </p> 
+
+  <!-- end cart -->
+  <!-- End of Top Scroll -->
+  
+  <!-- SCRIPT SOURCE FILES -->
+  
+  <script src="/js/jquery-3.3.1.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
+  <script src="/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+  
+  <script src="/js/contact.js"></script>
+  <script src="/js/custom.js"></script>
+  <script src="/js/jquery.counterup.js"></script>
+  <script src="/js/jquery.waypoints.min.js"></script>
+  <script src="/js/lightbox.js"></script>
+  <script src="/js/owl.carousel.js"></script>
+  <script src="/js/validator.js"></script>
+  <script src="/js/waypoints.js"></script>
+  
+  
+  <!-- END OF SCRIPT SOURCE FILES -->
+  

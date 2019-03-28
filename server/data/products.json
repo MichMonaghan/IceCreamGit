@@ -1,0 +1,96 @@
+{
+  "products": [{
+    "name": "Vanilla",
+    "shortname" : "Vanilla",
+    "price": "$8.00 - 1L",
+    "summary" : "Summary for Vanilla ice cream.",
+    "description": "<p>Description for Vanilla ice cream.</p>",
+    "image": ["VanillaPicwtub.png"]
+  },{
+    "name": "Strawberry",
+    "shortname" : "Strawberry",
+    "price": "$8.90 - 1L",
+    "summary" : "Summary for Strawberry ice cream.",
+    "description": "<p>Description for Strawberry ice cream.</p>",    
+    "image" : ["StrawberryPicwtub.png"]
+  },{
+    "name": "Pistachio",
+    "shortname" : "Pistachio",
+    "price": "$8.90 - 1L",
+    "summary" : "Summary for Pistachio ice cream.",
+    "description": "<p>Description for Pistachio ice cream.</p>",
+    "image" : ["PistachioPicwtub.png"]
+  },{
+    "name": "Passionfruit",
+    "shortname" : "Passionfruit",
+    "price": "$8.00 - 1L",
+    "summary" : "Summary for Passionfruit ice cream.",
+    "description": "<p>Description for Passionfruit ice cream.</p>",
+    "image" : ["PassionfruitPicwtub.png"]
+  },{
+    "name": "Butterscotch",
+    "shortname" : "Butterscotch",
+    "price": "$8.50 - 1L",
+    "summary" : "Summary for Butterscotch ice cream.",
+    "description": "<p>Description for Butterscotch ice cream.</p>",
+    "image" : ["ButterscotchPicwtub.png"]
+  },{
+
+    "name": "Chocolate",
+    "shortname" : "Chocolate",
+    "price": "$8.00 - 1L",
+    "summary" : "Summary for Chocolate ice cream.",
+    "description": "<p>Description for Chocolate ice cream.</p>",
+    "image" : ["ChocolatePicwtub.png"]
+  },{
+
+    "name": "Blueberry",
+    "shortname" : "Blueberry",
+    "price": "$8.00 - 1L",
+    "summary" : "Summary for Blueberry ice cream.",
+    "description": "<p>Description for Blueberry ice cream.</p>",
+    "image" : ["BlueberryPicwtub.png"]
+  },{
+
+    "name": "Boysenberry",
+    "shortname" : "Boysenberry",
+    "price": "$8.00 - 1L",
+    "summary" : "Summary for Boysenberry ice cream.",
+    "description": "<p>Description for Boysenberry ice cream.</p>",
+    "image" : ["BoysenberryPicwtub.png"]
+  },{
+
+    "name": "Lime",
+    "shortname" : "Lime",
+    "price": "$8.00 - 1L",
+    "summary" : "Summary for Lime ice cream.",
+    "description": "<p>Description for Lime ice cream.</p>",
+    "image" : ["LimePicwtub.png"]
+  },{
+
+    "name": "Orange",
+    "shortname" : "Orange",
+    "price": "$8.00 - 1L",
+    "summary" : "Summary for Orange ice cream.",
+    "description": "<p>Description for Orange ice cream.</p>",
+    "image" : ["OrangePicwtub.png"]
+  },{
+
+    "name": "Lemon",
+    "shortname" : "Lemon",
+    "price": "$8.00 - 1L",
+    "summary" : "Summary for Lemon ice cream.",
+    "description": "<p>Description for Lemon ice cream.</p>",
+    "image" : ["LemonPicwtub.png"]
+  },{
+
+    "name": "CookiesnCream",
+    "shortname" : "CookiesnCream",
+    "price": "$8.00 - 1L",
+    "summary" : "Summary for CookiesnCream ice cream.",
+    "description": "<p>Description for CookiesnCream ice cream.</p>",
+    "image" : ["CookiesCreamPicwtub.png"]
+  },{
+
+  }]
+}

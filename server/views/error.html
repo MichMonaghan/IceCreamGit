@@ -1,0 +1,66 @@
+<!DOCTYPE html> <!-- This is error VIEW -->
+<html lang="en">
+
+<% include includes/head.html %>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<% include includes/navbar.html %>
+
+<!-- Start Home Section - this relates to scrolling  -->
+<div id="home">
+
+<!-- START OF LANDING PAGE IMAGE -->
+
+<div class="landing">
+  <div class="home-wrap">
+    <div class="home-inner">
+    </div>
+  </div>
+</div>
+
+<!-- END OF LANDING PAGE IMAGE -->
+
+<!-- START OF LANDING PAGE CAPTION -->
+<div class="container">
+  <div class="row">
+    <div class="caption col-md-6 text-center">
+
+      <div class="os-animation" data-animation="bounceInUp" data-delay=".6s">
+      <h2>Whoops!!!!</h2>
+      </div>
+
+        <div class="os-animation" data-animation="bounceInUp" data-delay=".8s">
+        <h3 class="middle-caption-padding"><%= status %></h3>
+        </div>
+
+        <div class="os-animation" data-animation="bounceInUp" data-delay=".8s">
+          <h2><%= message %></h2>
+          <!--<pre><%= error.stack %></pre>-->
+          </div>
+
+    </div> <!-- closes second column -->
+  </div> <!-- closes row -->
+</div> <!-- close container -->
+<!-- END OF LANDING PAGE CAPTION -->
+
+
+  <!-- BOUNCING DOWN ARROW -->
+  <a class="down-arrow" href="#features">
+    <div class="arrow bounce d-none d-md-block">
+      <i class="fas fa-angle-down" aria-hidden="true"></i>
+    </div>
+  </a>
+</div> <!-- END HOME SECTION -->
+
+<div class="container p-5">
+    <h1>Something went wrong, please try another page or go back to home page</h1>
+</div>
+ 
+<% include includes/footer.html %>
+
+</body>
+
+</html>
+
+
